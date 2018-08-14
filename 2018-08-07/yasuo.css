@@ -1,0 +1,67 @@
+.head{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    background-color: #131415;
+    display: flex;
+    justify-content: center;
+}
+.head-1{
+    margin: 0 45px
+}
+.content{
+    display: flex;
+}
+ .image img {
+    width: 360px;
+    height: 512px;
+    margin: 0 auto;
+}
+.text {
+    font-size: 32px;
+    text-align: left;
+    list-style-type: square;
+    margin-top: 0;
+    border: 2px solid;
+    color: white;
+    background-image: url(yasuo-cao-boi.jpg);
+}
+.text-2{
+    text-align: center;
+    margin-top: 0
+}
+.introduce{
+    background-color: #131415;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center
+}
+.introduce-2{
+    text-align: center;
+    color: white
+}
+.footer{
+    display: flex;
+    background-color: #131415;
+    border: white 2px solid
+}
+.footer-1{
+    text-align: center;
+    color: darkolivegreen;
+    width: 33%
+}
+.footer-2{
+    text-align: center;
+    color: darkgreen;
+    margin: auto 0;
+    width: 33%
+}
+.image-2 img{
+    width: 64px;
+    height: 50px;
+    margin: auto;
+    display: block
+}
+.image-2{
+    width: 34%
+}

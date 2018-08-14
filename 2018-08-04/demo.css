@@ -1,0 +1,25 @@
+
+h1 {
+    color: red;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 0
+}
+p {
+    text-align: center;
+}
+.backgroundcolor{
+    background-color: lavender
+}
+.imgandtext {
+    display: flex;
+    text-align: left;
+     font-size: 36px;
+     list-style-type: square;
+}
+.text {
+    margin-left: 10px;
+    padding: 10px;
+    border: 2px solid;
+    display: table-column
+}
