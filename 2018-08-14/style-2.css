@@ -1,0 +1,20 @@
+.Header{
+    height: 200px;
+    background-color:black;
+    color: white
+}
+.img{
+    height: 80px;
+    width: 140px;
+}
+.Text{
+    font-size: 24px;
+    width: 80%;
+}
+.Text-2{
+    font-size: 24px
+}
+.img-2{
+    height: 160px;
+    width: 300px;
+}
