@@ -3,13 +3,13 @@
 <head>
     <title>Block-js</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <div id="js-header">
-        <div class="container-fluid m-0 bg-dark">
+    <script src="./album.js"></script>
+    <div style="display: block; background-color: gray" id="js-header">
+        <div class="container-fluid m-0 bg-dark d-block">
             <div class="row h-100 d-flex">
                 <div class="col-1"></div>
                 <div class="col-7 p-3">
@@ -33,7 +33,7 @@
             </div>
             <div class="col-6"></div>
             <div class="col-3 m-0 p-0 h-100 d-flex flex-column justify-content-center align-items-center">
-                <button id="js-anhien"><i class="fas fa-bars"></i></button>
+                <button id="js-click"><i class="fas fa-bars"></i></button>
             </div>
         </div>
     </div>
@@ -142,12 +142,7 @@
             </div>
         </div>
     </div>
-    <script>
-            $(document).ready(function(){
-                $('#js-anhien').click(function(){
-                    $('#js-header').slideToggle("2000")
-                });
-            });
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./album.js"></script>
 </body>
 </html>

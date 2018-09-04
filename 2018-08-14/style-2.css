@@ -1,9 +1,6 @@
 .Header{
+    height: 200px;
     background-color:black;
-    color: white
-}
-.Header-create{
-    background-color: black;
     color: white
 }
 .img{
@@ -18,21 +15,6 @@
     font-size: 24px
 }
 .img-2{
-    height: 120px;
-    width: 240px;
-}
-.Text-3{
-    font-size: 42px
-}
-@media only screen and (max-width:768px){
-    h1{
-        font-size: 16px;
-    }
-    p{
-        font-size: 10px;
-    }
-    a{
-        font: size 12px;
-    }
-    
+    height: 160px;
+    width: 300px;
 }

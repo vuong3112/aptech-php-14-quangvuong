@@ -1,0 +1,16 @@
+.Img{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+}
+.Image{
+    height: 300px;
+    width: 100%;
+}
+h1{
+    font-size: 48px;
+}
+.img-card{
+    width: 445px;
+    height: 500px;
+}
